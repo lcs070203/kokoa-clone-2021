@@ -1,3 +1,3 @@
 # kokoa clone 2021 code
 
-css html skill better
+html & css are so much fun
