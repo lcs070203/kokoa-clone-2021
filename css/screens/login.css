@@ -1,0 +1,56 @@
+.hisiri-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+}
+.hisiri-header__title {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.hisiri-header__text {
+  width: 50%;
+  opacity: 0.7;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#login-form input {
+  padding: 15px 37px;
+  border: none;
+  font-size: 18px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+}
+#login-form input:focus {
+  border-color: var(--skyblue);
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input[type="submit"] {
+  background-color: #afb2b0;
+  cursor: pointer;
+  padding: 20px 0px;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: inherit;
+  font-size: 13px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Hi siri</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>17:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <header class="hisiri-header">
+      <h1 class="hisiri-header__title">Hi siri</h1>
+      <p class="hisiri-header__text">
+        if you use the hi siri<br />log in with email or phone number
+      </p>
+    </header>
+
+    <form action="friends.html" method="GET" id="login-form">
+      <input
+        name="username"
+        required="required"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        name="password"
+        required="required"
+        type="password"
+        placeholder="password"
+      />
+      <input type="submit" value="log in" />
+      <input type="submit" value="sign up" />
+      <a href="#" class="">Hi siri 암호를 잊으셨나요?</a>
+      <a href="#" class="">Hi siri ID가 없으신가요?</a>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/e72e003150.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

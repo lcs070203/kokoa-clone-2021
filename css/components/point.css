@@ -1,0 +1,52 @@
+.red-point__circle {
+  position: relative;
+}
+
+.red-point {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 15px;
+  left: -5px;
+}
+
+.user-component__subtitle {
+  position: relative;
+}
+.point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: red 1px solid;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  border-radius: 20px;
+  position: absolute;
+  color: red;
+  left: 130px;
+  bottom: 0.5px;
+}
+
+.cirlce__zone {
+  position: relative;
+}
+
+.circle__zone-point {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  width: 18px;
+  height: 18px;
+  border-radius: 20px;
+  left: 130px;
+  bottom: 0.4px;
+  font-size: 10px;
+  color: white;
+}
